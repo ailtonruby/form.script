@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green; /* Mensagem positiva (verde) */
+}
